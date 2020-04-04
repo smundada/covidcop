@@ -6806,7 +6806,7 @@ var init_wrench = function(disabled) {
 		actions.add('options', {'html': 'Social Fixer is <span style="color:red;font-weight:bold;">Disabled</span>.<br>Click here to Enable.</span>', 'message': 'menu/enable'});
 	}
 	else {
-		actions.add('options', {'html': 'Social Fixer Options <span style="font-size:10px;color:#aaa;">(Ctrl+Shift+X)</span>', 'message': 'menu/options'});
+		actions.add('options', {'html': 'Social FIXER Options <span style="font-size:10px;color:#aaa;">(Ctrl+Shift+X)</span>', 'message': 'menu/options'});
 		actions.add('links', {'html': 'Donate To Support Development', 'url': 'http://socialfixer.com/donate.html'});
 		actions.add('other', {'html': 'Version ' + sfx_buildstr, 'message': 'menu/about_clicked'});
 		actions.add('other', {'html': 'Disable Social Fixer', 'message': 'menu/disable'});
